@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(76, 23, 122),pink,purple);
+}
+.drum1{
+    width: 150px;
+    height: 150px;
+    background-image: cover;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    
+    background-size: 50px 50px;
+}
+.drum2{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 100px;
+    left: 210px;
+}
+.drum3{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 100px;
+    left: 410px;
+}
+.drum4{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 100px;
+    left: 620px;
+}
+.drum5{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 100px;
+    left: 820px;
+}
+.drum6{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 100px;
+    left: 1010px;
+}
+.drum7{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 100px;
+    left: 1200px;
+}
+img{
+    padding: 1px 2px;
+    width: 150px;
+    height: 149px;
+}
+.btn1{
+    width: 60px;
+    height:50px;
+
+    position: absolute;
+    bottom: 25px;
+    left: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(231, 167, 203),rgb(246, 237, 242), rgb(230, 159, 220));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.btn2{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 23px;
+    left: 255px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(231, 167, 203),rgb(246, 237, 242), rgb(230, 159, 220));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn3{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 23px;
+    left: 450px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(231, 167, 203),rgb(246, 237, 242), rgb(230, 159, 220));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn4{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 23px;
+    left: 670px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(231, 167, 203),rgb(246, 237, 242), rgb(230, 159, 220));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn5{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 23px;
+    left: 870px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(231, 167, 203),rgb(246, 237, 242), rgb(230, 159, 220));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn6{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 23px;
+    left: 1060px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(231, 167, 203),rgb(246, 237, 242), rgb(230, 159, 220));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn7{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 23px;
+    left: 1250px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(231, 167, 203),rgb(246, 237, 242), rgb(230, 159, 220));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 270px;
+    /* border: 2px solid black; */
+    font-family: cursive;
+    font-size: 72px;
+  background: -webkit-linear-gradient(rgb(255, 254, 255), rgb(222, 182, 220),rgb(248, 244, 247));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.about2{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    right: 160px;
+    /* border: 2px solid black; */
+    font-family: cursive;
+    font-size: 72px;
+  background: -webkit-linear-gradient(rgb(253, 253, 253), rgb(225, 186, 222),rgb(249, 247, 249));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.instr{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top:270px;
+    right: 20px;
+    /* border: 2px solid black; */
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 30px;
+  background: -webkit-linear-gradient(#ab298a, rgb(203, 126, 198),rgb(112, 44, 112));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.setImg{
+    
+     position: absolute;
+     top: 5px;
+     left: 5px;
+
+}
+#set{
+    width: 130px;
+    height: 130px;
+}
+
+
+
+
+
+
